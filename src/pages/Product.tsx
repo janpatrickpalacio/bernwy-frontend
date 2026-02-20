@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { motion } from 'motion/react';
 import { CheckCircle, Clock, FileText, MessageSquare, Shield, Users, Settings, BarChart } from 'lucide-react';
 
@@ -53,7 +53,7 @@ export default function Product() {
               ))}
             </div>
             
-            <Button variant="outline" className="mt-4 border-brand-200 bg-brand-50 text-brand-700 hover:bg-brand-100 dark:border-brand-800 dark:bg-brand-900/20 dark:text-brand-300">
+            <Button variant="ghost" className="mt-4">
               Start your Free Trial →
             </Button>
           </div>
@@ -93,7 +93,7 @@ export default function Product() {
           <div className="mb-16 text-center">
             <h2 className="text-4xl font-bold text-brand-600 dark:text-brand-500">All Features at a Glance</h2>
             <p className="mt-4 text-slate-600 dark:text-slate-400">Our comprehensive suite of tools designed to make property management effortless.</p>
-            <Button variant="outline" className="mt-6">Home</Button>
+            <Button variant="ghost" className="mt-6">Home</Button>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -132,7 +132,7 @@ export default function Product() {
           <p className="mb-8 text-slate-600 dark:text-slate-400">Join thousands of landlords who are increasing their returns with Bernwy's comprehensive property management platform.</p>
           <div className="flex justify-center gap-4">
             <Button size="lg" className="px-8">Get Started Now</Button>
-            <Button size="lg" variant="outline" className="px-8">Contact Sales</Button>
+            <Button size="lg" variant="ghost" className="px-8">Contact Sales</Button>
           </div>
         </div>
       </section>

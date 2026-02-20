@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { motion } from 'motion/react';
 import { Home, ShieldCheck, TrendingUp, MessageSquare, Briefcase, Users, FileText, Play, Calendar } from 'lucide-react';
 
@@ -97,7 +97,7 @@ export default function Landing() {
             className="flex flex-col items-center justify-center gap-4 sm:flex-row"
           >
             <Button size="lg" className="px-8">Get Started</Button>
-            <Button size="lg" variant="outline" className="px-8">Watch Demo</Button>
+            <Button size="lg" variant="ghost" className="px-8">Watch Demo</Button>
           </motion.div>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function Landing() {
               </div>
               <h3 className="mb-2 text-lg font-bold text-slate-900 dark:text-white">{item.title}</h3>
               <p className="mb-6 flex-1 text-sm text-slate-600 dark:text-slate-400">{item.desc}</p>
-              <Button variant="outline" className="w-full bg-brand-100/50 border-transparent hover:bg-brand-200/50 dark:bg-brand-900/30 dark:hover:bg-brand-900/50">
+              <Button variant="ghost" className="w-full">
                 {item.cta}
               </Button>
             </div>
@@ -257,7 +257,7 @@ export default function Landing() {
           <p className="mb-8 text-slate-600 dark:text-slate-400">Join thousands of landlords who are increasing their returns with Bernwy's comprehensive property management platform.</p>
           <div className="flex justify-center gap-4">
             <Button size="lg" className="px-8">Get Started Now</Button>
-            <Button size="lg" variant="outline" className="px-8 border-brand-200 bg-brand-100 hover:bg-brand-200 dark:border-brand-800 dark:bg-brand-900/30 dark:hover:bg-brand-900/50">Contact Sales</Button>
+            <Button size="lg" variant="ghost" className="px-8">Contact Sales</Button>
           </div>
         </div>
       </section>
