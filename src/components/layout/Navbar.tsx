@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useTheme } from '@/context/ThemeContext';
-import { Button } from '@/components/ui/Button';
+import { Button } from '@/components/ui/button';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
